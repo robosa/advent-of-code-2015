@@ -63,4 +63,3 @@ fn part2(input: &[Vec<i32>]) -> u32 {
     }
     best
 }
-

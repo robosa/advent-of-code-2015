@@ -66,4 +66,3 @@ fn part2(input: &str) -> Option<u16> {
         _ => false,
     })
 }
-

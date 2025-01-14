@@ -68,4 +68,3 @@ fn part2(input: &str) -> usize {
     }
     count - 1
 }
-

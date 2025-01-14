@@ -71,4 +71,3 @@ fn part2(input: &[Reindeer]) -> Option<u32> {
     }
     points.into_iter().max()
 }
-

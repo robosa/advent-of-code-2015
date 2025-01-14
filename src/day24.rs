@@ -60,4 +60,3 @@ fn part2(input: &[u64]) -> Option<u64> {
     }
     None
 }
-

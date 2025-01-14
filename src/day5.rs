@@ -61,4 +61,3 @@ fn part1(input: &str) -> usize {
 fn part2(input: &str) -> usize {
     input.lines().filter(|s| is_nice2(s)).count()
 }
-

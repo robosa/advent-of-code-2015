@@ -35,4 +35,3 @@ fn part2(input: &[u8]) -> Option<usize> {
     count_combos(input, 150, 0, &mut counts);
     counts.into_iter().find(|&n| n > 0)
 }
-

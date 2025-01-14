@@ -79,4 +79,3 @@ fn part1(input: &str) -> Option<i32> {
 fn part2(input: &str) -> Option<i32> {
     Graph::new(input).scores_with_me().max()
 }
-

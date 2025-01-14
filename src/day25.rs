@@ -25,4 +25,3 @@ fn part1(&(row, column): &(u64, u64)) -> Option<u64> {
     let count = n * (n - 1) / 2 + column - 1;
     successors(Some(20151125), |code| Some((code * 252533) % 33554393)).nth(count as usize)
 }
-

@@ -118,4 +118,3 @@ fn part1(input: &str) -> u32 {
 fn part2(input: &str) -> u32 {
     Computer::new(input, 1).run_program()
 }
-

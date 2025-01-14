@@ -71,4 +71,3 @@ fn part2(input: &str) -> usize {
     }
     count_lights(&grid)
 }
-

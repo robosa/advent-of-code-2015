@@ -77,4 +77,3 @@ fn part1(input: &str) -> i32 {
 fn part2(input: &str) -> i32 {
     calc_value(&parse_value(input).unwrap().1, true)
 }
-

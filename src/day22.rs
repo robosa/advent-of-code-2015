@@ -193,4 +193,3 @@ fn part1(input: &State) -> Option<u16> {
 fn part2(input: &State) -> Option<u16> {
     dijkstra(input, true)
 }
-

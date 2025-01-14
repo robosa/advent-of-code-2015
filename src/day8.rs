@@ -28,4 +28,3 @@ fn part2(input: &str) -> usize {
         .map(|line| line.chars().filter(|&c| c == '"' || c == '\\').count() + 2)
         .sum()
 }
-

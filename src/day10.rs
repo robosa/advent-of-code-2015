@@ -23,4 +23,3 @@ fn part1(input: &str) -> Option<usize> {
 fn part2(input: &str) -> Option<usize> {
     get_length(input.chars().collect(), 50)
 }
-
